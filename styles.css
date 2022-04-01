@@ -218,17 +218,17 @@
 }
 
 .hello_heading span {
-    background: #D81E5B; /* fallback for old browsers */
+    background: #D81E5B; 
     background: -webkit-linear-gradient(
       to right,
       #EB5E55,
       #D81E5B
-    ); /* Chrome 10-25, Safari 5.1-6 */
+    );
     background: linear-gradient(
       to right,
       #EB5E55,
       #D81E5B
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    );
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -247,7 +247,7 @@
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .hello_heading {
       font-size: 60px;
     }
@@ -259,6 +259,12 @@
       font-size: 40px;
     }
 }
+@media screen and (max-width: 480px) {
+    .hello_heading span{
+        font-size: 40px;
+    }
+}
+
 
 /*MAIN */
 
