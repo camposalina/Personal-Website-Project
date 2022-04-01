@@ -252,6 +252,9 @@
       font-size: 60px;
     }
   
+    .hello_heading span {
+        font-size: 52px;
+    }
     .hello_description {
       font-size: 40px;
     }
