@@ -247,7 +247,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
     .hello_heading {
       font-size: 60px;
     }
