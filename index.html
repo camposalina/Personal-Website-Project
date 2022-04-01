@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alina Campos | Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e5c600bb3e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <main>
+    <nav class="navbar">
+      <div class="navbar_container">
+        <a href="#home" id="logo"><img id="logo-img" src="images/output-onlinepngtools (2).png" alt="logo"></a>
+        <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar_menu">
+          <li class="navbar_item">
+            <a href="#home" class="navbar_link" id="home-page">Home</a>
+          </li>
+          <li class="navbar_item">
+            <a href="#about" class="navbar_link" id="about-page">About</a>
+          </li>
+          <li class="navbar_item">
+            <a href="#services" class="navbar_link" id="services-page"
+              >Portfolio</a
+            >
+          </li>
+          <li class="navbar_btn">
+            <a href="#sign-up" class="button" id="signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hello Section -->
+    <div class="hello" id="home">
+      <div class="hello_container">
+        <h1 class="hello_heading">Hello! My name is<br> <span>Alina Campos</span></h1>
+        <p class="hello_description">I am a Software Developer</p>
+        <button class="main_btn"><a href="#services">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main_container">
+        <div class="main_img-container">
+          <a href="https://www.bitmoji.com/" target="_blank"><cite>credit</cite></a>
+          <img src="images/IMG-3129.PNG" alt="">
+        </div>
+        <div class="main_content">
+          <h1>A little bit about me</h1>
+          <p>I am a senior IT student at Northeastern University. I have background in Marketing and Communication. 
+            I enjoy puzzles and problem-solving, this is why Software Development is the best field for me.
+          </p>
+          <button class="main_btn"><a href="https://www.linkedin.com/in/camposalina15/" target="_blank">Get More Info</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>My Projects</h1>
+      <div class="services_wrapper">
+        <div class="services_card">
+          <h2>Movie Reviewer</h2>
+          <p>Android App that allows you to add and store notes about your favorite movies</p>
+          <div class="services_btn"><button><a href="https://github.com/camposalina/MovieReview" target="_blank">See the Code</a></button></div>
+        </div>
+        <div class="services_card">
+          <h2>Ecommerce Website</h2>
+          <p>Professional photography shop selling sessions and photobooks built with React.js</p>
+          <div class="services_btn"><button><a href="#" target="_blank">See the Code</a></button></div>
+        </div>
+        <div class="services_card">
+          <h2>Personal Website</h2>
+          <p>Website featuring my GitHub portfolio, built using HTML, CSS, and  JavaScript</p>
+          <div class="services_btn"><button><a href="#" target="_blank">See the Code</a></button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main_container">
+        <div class="main_content">
+          <h1>Let's Connect!</h1>
+          <!--<button class="main_btn"><a href="#">Sign Up</a></button>-->
+          <div class="social_btn">
+            <a href="https://www.linkedin.com/in/camposalina15/" target="_blank"><i class="fa-brands fa-linkedin fa-8x"></i></a>
+            <a href="https://github.com/camposalina" target="_blank"><i class="fa-brands fa-github-square fa-8x"></i></a>
+          </div>
+          
+        </div>
+        <div class="main_img-container">
+          <a href="https://www.bitmoji.com/" target="_blank"><cite>credit</cite></a>
+          <img src="images/IMG-PHONE.PNG" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+      <i> Image Credit: Bitmoji <a href="https://www.bitmoji.com/" target="_blank">https://www.bitmoji.com/</a> </i>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
