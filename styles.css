@@ -263,6 +263,10 @@
     .hello_heading span{
         font-size: 40px;
     }
+
+    .hello_container {
+        padding-bottom: 60px;
+    }
 }
 
 
@@ -409,6 +413,10 @@
     .main_btn {
       padding: 12px 36px;
       margin: 2.5rem 0;
+    }
+
+    .main_container {
+        padding: 0 70px;
     }
 }
 
