@@ -264,8 +264,8 @@
         font-size: 40px;
     }
 
-    .hello_container {
-        padding-bottom: 60px;
+    .hello_heading {
+        padding-bottom: 90px;
     }
 }
 
@@ -416,7 +416,7 @@
     }
 
     .main_container {
-        padding: 0 70px;
+        padding: 0 90px;
     }
 }
 
